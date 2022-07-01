@@ -1,0 +1,56 @@
+.topbar {
+  position: sticky;
+  top: 0;
+  background-color: #ffffff;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
+  margin: 0 10px;
+  -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.85);
+  box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.85);
+}
+
+.topbar__icon {
+  font-size: 22px;
+  margin-right: 10px;
+}
+
+.topbar__right {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.topbar__icon.secondary {
+  padding: 10px;
+  background-color: rgba(230, 230, 230, 0.5);
+  border-radius: 50%;
+}
+
+.topbar__avatar {
+  margin-right: 20px;
+  width: 60px;
+  height: 60px;
+  overflow: hidden;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.topbar__name {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.topbar__name__title {
+  font-weight: 600;
+  font-size: 22px;
+  color: #222;
+}
+.topbar__name__job {
+  font-weight: 500;
+  font-size: 16px;
+  color: #666;
+}

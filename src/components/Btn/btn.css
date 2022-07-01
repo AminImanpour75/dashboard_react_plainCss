@@ -1,0 +1,19 @@
+.btn__simple {
+  margin-left: 10px;
+  font-size: 16px;
+  padding: 6px 16px;
+  background-color: #fff;
+  color: rgba(0, 0, 0, 0.5);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 3px;
+}
+.btn__simple:hover {
+  color: #fff;
+  background-color: #0d6efd;
+  cursor: pointer;
+}
+
+.btn__active {
+  background-color: #0d6efd;
+  color: #fff;
+}

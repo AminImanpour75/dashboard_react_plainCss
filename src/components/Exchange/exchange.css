@@ -1,0 +1,113 @@
+.exchange {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  background-color: #fff;
+  margin-top: 20px;
+  padding: 10px 30px;
+  -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.85);
+  box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.85);
+}
+
+.exchange__head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  padding: 10px 0;
+}
+
+.exchange__head__title {
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.exchange__body {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.form__group {
+  width: 100%;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.form__label {
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.5);
+}
+.form__group__input {
+  width: 100%;
+  margin-top: 6px;
+  display: flex;
+  align-items: center;
+  background-color: #ededf3;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.form__text {
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 8px;
+}
+.form__text span {
+  color: #000;
+  font-size: 16px;
+  font-weight: 600;
+}
+.input__icon {
+  color: rgba(0, 0, 0, 0.85);
+  font-size: 12px;
+}
+
+.form__input {
+  width: 100%;
+  font-size: 16px;
+  font-weight: 600;
+  flex: 1;
+  border: none;
+  background-color: #ededf3;
+  padding: 8px 20px;
+  color: #000;
+  outline: none;
+}
+
+.form__input::placeholder {
+  color: #000;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.form__btn {
+  border: none;
+  border-radius: 30px;
+  background-color: #0f1a34;
+  color: #fff;
+  padding: 10px;
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.form__caption {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.form__caption span {
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.5);
+}
